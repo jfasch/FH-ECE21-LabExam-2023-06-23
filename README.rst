@@ -38,13 +38,13 @@ Test
 .. code-block:: console
 
    $ ./tests/test-suite-fh-2023-06-23 
-   Running main() from /home/jfasch/tmp/FH-ECE21-LabExam-2023-06-23/googletest/googletest/src/gtest_main.cc
+   Running main() from /home/jfasch/tmp/xxxxx/googletest/googletest/src/gtest_main.cc
    [==========] Running 3 tests from 2 test suites.
    [----------] Global test environment set-up.
-   [----------] 1 test from sensor_mock_suite
-   [ RUN      ] sensor_mock_suite.basic
-   [       OK ] sensor_mock_suite.basic (0 ms)
-   [----------] 1 test from sensor_mock_suite (0 ms total)
+   [----------] 1 test from sensor_mock_nopoly_suite
+   [ RUN      ] sensor_mock_nopoly_suite.basic
+   [       OK ] sensor_mock_nopoly_suite.basic (0 ms)
+   [----------] 1 test from sensor_mock_nopoly_suite (0 ms total)
    
    [----------] 2 tests from switch_mock_suite
    [ RUN      ] switch_mock_suite.initial_state
@@ -56,3 +56,4 @@ Test
    [----------] Global test environment tear-down
    [==========] 3 tests from 2 test suites ran. (0 ms total)
    [  PASSED  ] 3 tests.
+   
